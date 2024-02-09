@@ -11,9 +11,22 @@
 		0A52B3CD280B463C00656FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52B3CC280B463C00656FA0 /* ContentView.swift */; };
 		0A52B3CF280B463E00656FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A52B3CE280B463E00656FA0 /* Assets.xcassets */; };
 		0A52B3D2280B463E00656FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A52B3D1280B463E00656FA0 /* Preview Assets.xcassets */; };
-		0A52B3DC280B463E00656FA0 /* Level_UpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52B3DB280B463E00656FA0 /* Level_UpTests.swift */; };
-		0A52B3E6280B463E00656FA0 /* Level_UpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52B3E5280B463E00656FA0 /* Level_UpUITests.swift */; };
-		0A52B3E8280B463E00656FA0 /* Level_UpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52B3E7280B463E00656FA0 /* Level_UpUITestsLaunchTests.swift */; };
+		0ABB83072B76CB5F00A57FE3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB83062B76CB5F00A57FE3 /* User.swift */; };
+		0ADBFF4D28137332007BD476 /* SkillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF4C28137332007BD476 /* SkillRow.swift */; };
+		0ADBFF4F281379C8007BD476 /* SkillList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF4E281379C8007BD476 /* SkillList.swift */; };
+		0ADBFF51281379F2007BD476 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF50281379F2007BD476 /* Skill.swift */; };
+		0ADBFF5428162D4F007BD476 /* CircleLevelBadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF5328162D4F007BD476 /* CircleLevelBadgeBackground.swift */; };
+		0ADBFF5628163088007BD476 /* SquareLevelBadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF5528163088007BD476 /* SquareLevelBadgeBackground.swift */; };
+		0ADBFF5B28163AA5007BD476 /* rainyhearts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ADBFF5928163752007BD476 /* rainyhearts.ttf */; };
+		0ADBFF5D28163B78007BD476 /* TriangleLevelBadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF5C28163B78007BD476 /* TriangleLevelBadgeBackground.swift */; };
+		0ADBFF6028163C92007BD476 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF5F28163C92007BD476 /* Triangle.swift */; };
+		0ADBFF6828165E2F007BD476 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF6728165E2F007BD476 /* Assignment.swift */; };
+		0ADBFF6A28165F84007BD476 /* Levelbadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF6928165F84007BD476 /* Levelbadge.swift */; };
+		0ADBFF6C28166729007BD476 /* SkillDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF6B28166729007BD476 /* SkillDetail.swift */; };
+		0ADBFF6E28166845007BD476 /* SkillImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF6D28166845007BD476 /* SkillImage.swift */; };
+		0ADBFF7028166F05007BD476 /* LevelBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF6F28166F05007BD476 /* LevelBar.swift */; };
+		0ADBFF732816755A007BD476 /* AssignmentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF722816755A007BD476 /* AssignmentRow.swift */; };
+		0ADBFF752816756D007BD476 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFF742816756D007BD476 /* AssignmentList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +53,24 @@
 		0A52B3CE280B463E00656FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A52B3D1280B463E00656FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A52B3D7280B463E00656FA0 /* Level UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Level UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A52B3DB280B463E00656FA0 /* Level_UpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level_UpTests.swift; sourceTree = "<group>"; };
 		0A52B3E1280B463E00656FA0 /* Level UpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Level UpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A52B3E5280B463E00656FA0 /* Level_UpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level_UpUITests.swift; sourceTree = "<group>"; };
-		0A52B3E7280B463E00656FA0 /* Level_UpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level_UpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ABB83062B76CB5F00A57FE3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0ADBFF4C28137332007BD476 /* SkillRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillRow.swift; sourceTree = "<group>"; };
+		0ADBFF4E281379C8007BD476 /* SkillList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillList.swift; sourceTree = "<group>"; };
+		0ADBFF50281379F2007BD476 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		0ADBFF5328162D4F007BD476 /* CircleLevelBadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLevelBadgeBackground.swift; sourceTree = "<group>"; };
+		0ADBFF5528163088007BD476 /* SquareLevelBadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareLevelBadgeBackground.swift; sourceTree = "<group>"; };
+		0ADBFF5928163752007BD476 /* rainyhearts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rainyhearts.ttf; sourceTree = "<group>"; };
+		0ADBFF5A28163829007BD476 /* Level-Up-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Level-Up-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0ADBFF5C28163B78007BD476 /* TriangleLevelBadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleLevelBadgeBackground.swift; sourceTree = "<group>"; };
+		0ADBFF5F28163C92007BD476 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		0ADBFF6728165E2F007BD476 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		0ADBFF6928165F84007BD476 /* Levelbadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levelbadge.swift; sourceTree = "<group>"; };
+		0ADBFF6B28166729007BD476 /* SkillDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDetail.swift; sourceTree = "<group>"; };
+		0ADBFF6D28166845007BD476 /* SkillImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillImage.swift; sourceTree = "<group>"; };
+		0ADBFF6F28166F05007BD476 /* LevelBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBar.swift; sourceTree = "<group>"; };
+		0ADBFF722816755A007BD476 /* AssignmentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentRow.swift; sourceTree = "<group>"; };
+		0ADBFF742816756D007BD476 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				0A52B3C9280B463C00656FA0 /* Level Up */,
-				0A52B3DA280B463E00656FA0 /* Level UpTests */,
-				0A52B3E4280B463E00656FA0 /* Level UpUITests */,
 				0A52B3C8280B463C00656FA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,9 +119,14 @@
 		0A52B3C9280B463C00656FA0 /* Level Up */ = {
 			isa = PBXGroup;
 			children = (
+				0ADBFF4A281372F2007BD476 /* Models */,
+				0ADBFF49281372E6007BD476 /* Views */,
 				0A52B3CA280B463C00656FA0 /* Level_UpApp.swift */,
 				0A52B3CC280B463C00656FA0 /* ContentView.swift */,
+				0ADBFF5E28163C7A007BD476 /* Shapes */,
 				0A52B3CE280B463E00656FA0 /* Assets.xcassets */,
+				0ADBFF5A28163829007BD476 /* Level-Up-Info.plist */,
+				0ADBFF582816371D007BD476 /* fonts */,
 				0A52B3D0280B463E00656FA0 /* Preview Content */,
 			);
 			path = "Level Up";
@@ -110,21 +140,80 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0A52B3DA280B463E00656FA0 /* Level UpTests */ = {
+		0ADBFF49281372E6007BD476 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0A52B3DB280B463E00656FA0 /* Level_UpTests.swift */,
+				0ADBFF712816753F007BD476 /* Assignments */,
+				0ADBFF5228162D2D007BD476 /* Levels */,
+				0ADBFF4B281372FF007BD476 /* Skills */,
 			);
-			path = "Level UpTests";
+			path = Views;
 			sourceTree = "<group>";
 		};
-		0A52B3E4280B463E00656FA0 /* Level UpUITests */ = {
+		0ADBFF4A281372F2007BD476 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0A52B3E5280B463E00656FA0 /* Level_UpUITests.swift */,
-				0A52B3E7280B463E00656FA0 /* Level_UpUITestsLaunchTests.swift */,
+				0ADBFF50281379F2007BD476 /* Skill.swift */,
+				0ADBFF6728165E2F007BD476 /* Assignment.swift */,
+				0ABB83062B76CB5F00A57FE3 /* User.swift */,
 			);
-			path = "Level UpUITests";
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0ADBFF4B281372FF007BD476 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBFF4C28137332007BD476 /* SkillRow.swift */,
+				0ADBFF4E281379C8007BD476 /* SkillList.swift */,
+				0ADBFF6B28166729007BD476 /* SkillDetail.swift */,
+				0ADBFF6D28166845007BD476 /* SkillImage.swift */,
+			);
+			path = Skills;
+			sourceTree = "<group>";
+		};
+		0ADBFF5228162D2D007BD476 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBFF6928165F84007BD476 /* Levelbadge.swift */,
+				0ADBFF6F28166F05007BD476 /* LevelBar.swift */,
+				0ADBFF572816308E007BD476 /* BackgroundShapes */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		0ADBFF572816308E007BD476 /* BackgroundShapes */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBFF5528163088007BD476 /* SquareLevelBadgeBackground.swift */,
+				0ADBFF5328162D4F007BD476 /* CircleLevelBadgeBackground.swift */,
+				0ADBFF5C28163B78007BD476 /* TriangleLevelBadgeBackground.swift */,
+			);
+			path = BackgroundShapes;
+			sourceTree = "<group>";
+		};
+		0ADBFF582816371D007BD476 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBFF5928163752007BD476 /* rainyhearts.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		0ADBFF5E28163C7A007BD476 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBFF5F28163C92007BD476 /* Triangle.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		0ADBFF712816753F007BD476 /* Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				0ADBFF722816755A007BD476 /* AssignmentRow.swift */,
+				0ADBFF742816756D007BD476 /* AssignmentList.swift */,
+			);
+			path = Assignments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +322,7 @@
 			files = (
 				0A52B3D2280B463E00656FA0 /* Preview Assets.xcassets in Resources */,
 				0A52B3CF280B463E00656FA0 /* Assets.xcassets in Resources */,
+				0ADBFF5B28163AA5007BD476 /* rainyhearts.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +347,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADBFF7028166F05007BD476 /* LevelBar.swift in Sources */,
+				0ADBFF4D28137332007BD476 /* SkillRow.swift in Sources */,
+				0ADBFF4F281379C8007BD476 /* SkillList.swift in Sources */,
+				0ADBFF6C28166729007BD476 /* SkillDetail.swift in Sources */,
+				0ADBFF752816756D007BD476 /* AssignmentList.swift in Sources */,
+				0ADBFF5428162D4F007BD476 /* CircleLevelBadgeBackground.swift in Sources */,
+				0ADBFF6028163C92007BD476 /* Triangle.swift in Sources */,
+				0ABB83072B76CB5F00A57FE3 /* User.swift in Sources */,
+				0ADBFF51281379F2007BD476 /* Skill.swift in Sources */,
 				0A52B3CD280B463C00656FA0 /* ContentView.swift in Sources */,
+				0ADBFF5628163088007BD476 /* SquareLevelBadgeBackground.swift in Sources */,
+				0ADBFF5D28163B78007BD476 /* TriangleLevelBadgeBackground.swift in Sources */,
+				0ADBFF732816755A007BD476 /* AssignmentRow.swift in Sources */,
+				0ADBFF6E28166845007BD476 /* SkillImage.swift in Sources */,
+				0ADBFF6828165E2F007BD476 /* Assignment.swift in Sources */,
+				0ADBFF6A28165F84007BD476 /* Levelbadge.swift in Sources */,
 				0A52B3CB280B463C00656FA0 /* Level_UpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +371,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A52B3DC280B463E00656FA0 /* Level_UpTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +378,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A52B3E8280B463E00656FA0 /* Level_UpUITestsLaunchTests.swift in Sources */,
-				0A52B3E6280B463E00656FA0 /* Level_UpUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +524,7 @@
 				DEVELOPMENT_TEAM = W887GA4V99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Level-Up-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +554,7 @@
 				DEVELOPMENT_TEAM = W887GA4V99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Level-Up-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
