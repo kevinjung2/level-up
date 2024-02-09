@@ -20,8 +20,19 @@ struct Skill: Identifiable, Codable {
     
     var currentLevel: Int
     var currentXP: CGFloat
+    var lastLevelXP: CGFloat
     var nextLevelXP: CGFloat
     
     var assignments: [Assignment]
     
+    func getNextLevelXP() -> CGFloat{
+        return (self.nextLevelXP - self.lastLevelXP)*1.3 + self.nextLevelXP
+    }
+    
+    mutating func levelUp() {
+        let lastLevel = nextLevelXP
+        currentLevel += 1
+        nextLevelXP = getNextLevelXP()
+        lastLevelXP = lastLevel
+    }
 }

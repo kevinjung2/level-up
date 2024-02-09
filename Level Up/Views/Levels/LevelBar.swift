@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LevelBar: View {
     var currentLevel: Int
+    var lastLevelXP: CGFloat
     var currentXP: CGFloat
     var nextLevelXP: CGFloat
 
@@ -20,7 +21,7 @@ struct LevelBar: View {
                 ZStack(alignment: .leading) {
                     RoundedRectangle(cornerRadius: 8)
                         .fill(.blue)
-                        .frame(width: currentXP/nextLevelXP*200, height: 30)
+                        .frame(width: (currentXP-lastLevelXP)/(nextLevelXP-lastLevelXP)*200, height: 30)
                     RoundedRectangle(cornerRadius: 6)
                         .stroke(.black, lineWidth: 3)
                         .frame(width: 200, height: 30)
@@ -39,6 +40,6 @@ struct LevelBar: View {
 
 struct LevelBar_Previews: PreviewProvider {
     static var previews: some View {
-        LevelBar(currentLevel: 9, currentXP: 15345, nextLevelXP: 20000)
+        LevelBar(currentLevel: 9, lastLevelXP: 15000, currentXP: 15650, nextLevelXP: 16000)
     }
 }

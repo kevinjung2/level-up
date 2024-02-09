@@ -27,7 +27,7 @@ struct SkillList: View {
 
 struct SkillList_Previews: PreviewProvider {
     static var previews: some View {
-        SkillList(skills: [Skill(id: 1, name: "finance", description: "Grow with savings and investments", imageName: "money_bag", currentLevel: 9, currentXP: 15504, nextLevelXP: 16000, assignments: [Assignment(id: 1, name: "Invest $10", description: "put 10 dollars into a savings account", repeatable: true, completed: 2, experience: 5)]), Skill(id: 2, name: "Health", description: "Become", imageName: "moeny_bag", currentLevel: 9, currentXP: 15504, nextLevelXP: 16000, assignments: [Assignment(id: 1, name: "Save $30", description: "put 30 dollars into a savings account", repeatable: true, completed: 3, experience: 10)])])
+        SkillList(skills: [Skill(id: 1, name: "finance", description: "Grow with savings and investments", imageName: "money_bag", currentLevel: 9, currentXP: 15504, lastLevelXP: 15000, nextLevelXP: 16000, assignments: [Assignment(id: 1, name: "Invest $10", description: "put 10 dollars into a savings account", repeatable: true, completed: 2, experience: 5)]), Skill(id: 2, name: "Health", description: "Become", imageName: "moeny_bag", currentLevel: 9, currentXP: 15504, lastLevelXP: 15000, nextLevelXP: 16000, assignments: [Assignment(id: 1, name: "Save $30", description: "put 30 dollars into a savings account", repeatable: true, completed: 3, experience: 10)])])
             .previewInterfaceOrientation(.portraitUpsideDown)
     }
 }
